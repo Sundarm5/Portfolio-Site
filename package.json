@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage":  "http://Sundarm5.github.io/Portfolio-Site",
+  "homepage": "http://Sundarm5.github.io/Portfolio-Site",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url https://Sundarm5.github.io/Portfolio-Site.git",
+    "build-gh": "parcel build --public-url https://Sundarm5.github.io/Portfolio-Site",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
